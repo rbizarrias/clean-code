@@ -1,0 +1,54 @@
+# =========================================================================
+# IntelliJ IDEA Settings
+# =========================================================================
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# =========================================================================
+# Java & Compiled Artifacts
+# =========================================================================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+# =========================================================================
+# Build Tools (Keep the build configs, ignore the build outputs)
+# =========================================================================
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+pom.xml.bak
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+.gradletasknamecache
+gradle-app.setting
+!gradle-wrapper.jar
+
+# =========================================================================
+# Operating System files
+# =========================================================================
+.DS_Store
+Thumbs.db
+
+*.pdf
